@@ -51,7 +51,7 @@ public class Account {
     public double getMonthlyInterestRate(){
         return annualInterestRate/12; 
     }
-    /*public void withdraw (double money){
+    public void withdraw (double money){
         if(money <= balance){
             balance -= money;
             System.out.println(balance);
@@ -59,7 +59,7 @@ public class Account {
         else {
             System.out.println("You can't withdraw");
         }   
-    }*/
+    }
     public void deposit (double money){
         balance += money;
         System.out.println(balance);
